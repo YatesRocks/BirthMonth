@@ -21,12 +21,12 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Tell me your birth month. Enter a number 1-12 inclusive.");
-        int birthmonth = get_int();
-        while (birthmonth < 1 || birthmonth > 12) {
-            System.out.println("You entered an incorrect month value: " + birthmonth);
+        int birth_month = get_int();
+        while (birth_month < 1 || birth_month > 12) {
+            System.out.println("You entered an incorrect month value: " + birth_month);
             System.out.println("Try again");
-            birthmonth = get_int();
+            birth_month = get_int();
         }
-        System.out.println("Your birth month is: " + birthmonth);
+        System.out.println("Your birth month is: " + birth_month);
     }
 }
